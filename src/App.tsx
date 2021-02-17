@@ -1,7 +1,9 @@
-import Counter from "./components/Counter";
-import User from "./components/User";
-import TimerFather from "./components/TimerFather";
-import CounterReducer from "./components/CounterReducer";
+import Counter from './components/Counter'
+import User from './components/User'
+import TimerFather from './components/TimerFather'
+import CounterReducer from './components/CounterReducer'
+import Form from './components/Form'
+import Form2 from './components/Form2'
 
 function App() {
   return (
@@ -17,8 +19,13 @@ function App() {
       <h2>useReducer</h2>
       <hr />
       <CounterReducer />
+      <h2>customHooks</h2>
+      <hr />
+      <Form />
+      <hr />
+      <Form2 />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
